@@ -1,6 +1,8 @@
 import cv2
 import easyocr
+import argparse
 import numpy as np
+
 
 def read_text_from_image(image_path, pic_lang : list):
     reader = easyocr.Reader(pic_lang)   # 初始化 easyocr 讀取器，假設文本包含英文和繁體中文
