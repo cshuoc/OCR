@@ -1,0 +1,20 @@
+PaddlePaddle >= 2.1.2
+Python 3.7
+opencv-python<=4.6.0.66
+opencv-contrib-python<=4.6.0.66
+cython
+shapely
+scikit-image
+imgaug
+pyclipper
+lmdb
+tqdm
+numpy
+visualdl
+rapidfuzz
+lxml
+premailer
+openpyxl
+attrdict
+Pillow>=10.0.0
+pyyaml
