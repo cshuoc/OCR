@@ -1,6 +1,6 @@
 # 文字識別及翻譯工具
 
-這個專案使用 PaddleOCR 進行圖像中的文字識別，並使用 Google Translate 進行翻譯。它能夠讀取影像檔，識別圖像中的文字，並將識別出的文字翻譯成指定的語言。
+這個專案使用 PaddleOCR 進行圖像中的文字識別，並使用 Google Translate 進行翻譯。此程式能夠讀取影像檔，識別圖像中的文字，並將識別出的文字翻譯成指定的語言。
 
 ## 環境要求
 
@@ -20,12 +20,29 @@ pip install -r requirements.txt
 ```
 
 ## 執行
+若要使用GPU來執行，請將 --gpu False 改為 True
 
 ```bash
-python ppocr.py --image_path "path/to/your/image.jpg" --result_text_path "path/to/save/text.txt" --pic_lang "en" --target_lang "zh-cn"
+python ppocr.py --image_path "path/to/your/image.jpg" --result_text_path "path/to/save/text.txt" --pic_lang "en" --target_lang "zh-cn" --gpu False
 ```
+### paddleocr 語言種類代碼
 
-### Google Translate 語言種類代號
+| 語種 | 描述 | 縮寫 | 語種 | 描述 | 縮寫 |
+|------|------|------|------|------|------|
+| 中文 | chinese and english | ch | 保加利亞文 | Bulgarian | bg |
+| 英文 | english | en | 烏克蘭文 | Ukranian | uk |
+| 法文 | french | fr | 白俄羅斯文 | Belarusian | be |
+| 德文 | german | de | 泰盧固文 | Telugu | te |
+| 日文 | japan | ja | 阿巴紮文 | Abaza | abq |
+| 韓文 | korean | ko | 泰米爾文 | Tamil | ta |
+| 中文繁體 | chinese traditional | zh-TW | 南非荷蘭文 | Afrikaans | af |
+| 義大利文 | Italian | it | 亞塞拜然文 | Azerbaijani | az |
+| 西班牙文 | Spanish | es | 波士尼亞文 | Bosnian | bs |
+| 葡萄牙文 | Portuguese | pt | 捷克文 | Czech | cs |
+| 俄羅斯文 | Russia | ru | 威爾士文 | Welsh | cy |
+| 阿拉伯文 | Arabic | ar | 丹麥文 | Danish | da |
+
+### Google Translate 語言種類代碼
 可以參考 [官網](<https://support.google.com/googleplay/android-developer/table/4419860?hl=zh-Hant> "Title") 知道更多語言代碼。
 | 語言 | 代碼 | 語言 | 代碼 | 語言 | 代碼 |
 |------|------|------|------|------|------|
