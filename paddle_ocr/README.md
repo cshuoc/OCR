@@ -26,17 +26,20 @@ python ppocr.py --image_path "path/to/your/image.jpg" --result_text_path "path/t
 ```
 
 ### Google Translate 語言種類代號
+可以參考 [官網](<[http://example.com/Hello World.html](https://support.google.com/googleplay/android-developer/table/4419860?hl=zh-Hant)> "Title") 知道更多語言代碼。
 | 語言 | 代碼 | 語言 | 代碼 | 語言 | 代碼 |
 |------|------|------|------|------|------|
-| 羅馬尼亞語 | ro | 俄語 | ru | 塔加路語（菲律賓語） | tl | 塔吉克語 | tg |
-| 薩摩亞語 | sm | 蘇格蘭蓋爾語 | gd | 泰米爾語 | ta | 韃靼語 | tt |
-| 塞爾維亞語 | sr | 塞索托語 | st | 泰盧固語 | te | 泰文 | th |
-| 修納語 | sn | 信德語 | sd | 土耳其語 | tr | 土庫曼語 | tk |
-| 僧伽羅語 | si | 斯洛伐克語 | sk | 烏克蘭語 | uk | 烏爾都語 | ur |
-| 斯洛維尼亞語 | sl | 索馬里語 | so | 維吾爾語 | ug | 烏茲別克語 | uz |
-| 西班牙語 | es | 巽他語 | su | 越南語 | vi | 威爾士語 | cy |
-| 斯瓦希裡語 | sw | 瑞典語 | sv | 班圖語 | xh | 意第緒語 | yi |
-| 約魯巴語 | yo | 祖魯語 | zu
+| 南非荷蘭語 | af | 阿爾巴尼亞語 | sq | 阿姆哈拉語 | am |
+| 阿拉伯語 | ar | 亞美尼亞語 | hy | 亞塞拜然語 | az |
+| 巴斯克語 | eu | 白俄羅斯語 | be | 孟加拉語 | bn |
+| 波士尼亞語 | bs | 保加利亞語 | bg | 加泰羅尼亞語 | ca |
+| 宿務語 | ceb(ISO-639-2) | 中文（簡體） | zh-CN或zh(BCP-47) | 中文（繁體） | zh-TW(BCP-47) |
+| 科西嘉語 | co | 克羅埃西亞語 | hr | 捷克語 | cs |
+| 丹麥語 | da | 荷蘭語 | nl | 英語 | en |
+| 世界語 | eo | 愛沙尼亞語 | et | 芬蘭語 | fi |
+| 法語 | fr | 弗裡斯蘭語 | fy | 加利西亞語 | gl |
+| 格魯吉亞語 | ka | 德語 | de | 希臘語 | el |
+
 
 
 
