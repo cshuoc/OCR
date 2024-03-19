@@ -26,7 +26,7 @@ python ppocr.py --image_path "path/to/your/image.jpg" --result_text_path "path/t
 ```
 
 ### Google Translate 語言種類代號
-可以參考 [官網](<[http://example.com/Hello World.html](https://support.google.com/googleplay/android-developer/table/4419860?hl=zh-Hant)> "Title") 知道更多語言代碼。
+可以參考 [官網](<https://support.google.com/googleplay/android-developer/table/4419860?hl=zh-Hant> "Title") 知道更多語言代碼。
 | 語言 | 代碼 | 語言 | 代碼 | 語言 | 代碼 |
 |------|------|------|------|------|------|
 | 南非荷蘭語 | af | 阿爾巴尼亞語 | sq | 阿姆哈拉語 | am |
