@@ -4,8 +4,8 @@ import argparse
 import numpy as np
 
 
-def read_text_from_image(image_path, pic_lang : list):
-    reader = easyocr.Reader(pic_lang)   # 初始化 easyocr 讀取器，假設文本包含英文和繁體中文
+def read_text_from_image(image_path, pic_lang : list, use_gpu : bool):
+    reader = easyocr.Reader(pic_lang, gpu = use_gpu)   # 初始化 easyocr 讀取器，假設文本包含英文和繁體中文
     image = cv2.imread(image_path)
     image = cv2.resize(image, None, fx=0.1, fy=0.1)
     results = reader.readtext(image, detail=1)  # detail=1 返回詳細資訊，包括邊界框
@@ -36,10 +36,11 @@ if __name__ == "__main__":
     parser.add_argument('--image_path', type=str, default="/your/path/pic", help='欲辨識圖像路徑')
     parser.add_argument('--recognized_text_path', type=str, default='/your/path/text.txt', help='辨識結果儲存路徑')
     parser.add_argument('--pic_lang', type=list, default=['en', 'ch_tra'], help='欲辨識圖像文字類型')
+    parser.add_argument('--use_gpu', type=bool, default=false, help='是否使用gpu')
     
     args = parser.parse_args()
     
-    recognized_text = read_text_from_image(args.image_path, args.pic_lang)
+    recognized_text = read_text_from_image(args.image_path, args.pic_lang, args.use_gpu)
     image_with_boxes = draw_text_boxes(args.image_path, recognized_text)
     cv2.imshow("Image with Text Boxes", image_with_boxes)
     cv2.waitKey(0)
