@@ -28,7 +28,7 @@ def pic_to_txt(img_path : str,  pic_lang : str, target_lang : str):
         print(result.text)
 
 if __name__ == "__main__":
-    img_path = 'C:/Users/user/Desktop/shuo/OCR/ind_0.jpg'
-    pic_lang = 'id'
-    target_lang = 'zh-tw'
+    img_path = '欲辨識的圖片路徑'
+    pic_lang = '圖片的語言種類'
+    target_lang = '翻譯目標的語言種類'
     pic_to_txt(img_path, pic_lang, target_lang)
