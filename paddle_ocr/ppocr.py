@@ -1,11 +1,12 @@
-from paddleocr import PaddleOCR,draw_ocr
+import os 
+import cv2 
+import argparse
+from PIL import Image 
 from googletrans import Translator
 from matplotlib import pyplot as plt
-from PIL import Image 
-import cv2 
-import os 
+from paddleocr import PaddleOCR,draw_ocr
 
-def pic_to_txt(img_path : str,  pic_lang : str, target_lang : str):
+def pic_to_txt(img_path : str,  result_save_path : str, pic_lang : str, target_lang : str):
     ppocr = PaddleOCR(lang= pic_lang ,use_gpu=False, use_angle_cls = True)
     image = cv2.imread(img_path)
     image = cv2.resize(image, (image.shape[0]*2, image.shape[1]*2), interpolation=cv2.INTER_AREA)
@@ -26,9 +27,19 @@ def pic_to_txt(img_path : str,  pic_lang : str, target_lang : str):
         translator = Translator()
         result = translator.translate(text, dest=target_lang, src = pic_lang)
         print(result.text)
-
+    save_recognized_text(result, save_path)
+def save_recognized_text(results, save_path='/your/path/test.txt'):
+    with open(save_path, 'w', encoding='utf-8') as file:
+        for (_, text, _) in results:
+            file.write(text + '\n')
+            
 if __name__ == "__main__":
-    img_path = '欲辨識的圖片路徑'
-    pic_lang = '圖片的語言種類'
-    target_lang = '翻譯目標的語言種類'
-    pic_to_txt(img_path, pic_lang, target_lang)
+    parser = argparse.ArgumentParser(description='文字識別及翻譯')
+    parser.add_argument('--image_path', type=str, default="/your/path/pic", help='欲辨識圖像路徑')
+    parser.add_argument('--result_text_path', type=str, default='/your/path/text.txt', help='辨識結果儲存路徑')
+    parser.add_argument('--pic_lang', type=str, default='en', help='欲辨識圖像文字類型')
+    parser.add_argument('--target_lang', type=str, default='chinese_cht', help='欲辨識圖像文字類型')
+    
+    args = parser.parse_args()    
+    
+    pic_to_txt(args.img_path, args.result_text_path, args.pic_lang, args.target_lang)
