@@ -61,14 +61,14 @@ python ppocr.py --image_path "path/to/your/image.jpg" --result_text_path "path/t
 
 ### 原圖
 ![圖片描述](english_2.jpg)
-### 識別結果
+#### 識別結果
 ![圖片描述](english_2_result.jpg)
 
 113 5 11 * 24 3546 3538 One fine morning in 1941, Swiss engineer George de Mestral went for a walk in the woods with his dog. Upon their return home, he found a lot of burrs (from plants) stuck to the dog's fur and his pants. He immediately rushed to his microscope and examined the burrs attached on his pantsfeeling a lightbulb moment coming on. Upon closer examination, de Mestral observed that the burrs, which appeared straight to the naked eye, actually contained many small hooks that clung firmly to the loops in the fabric of his pants. 
 He determined that if he could recreate the same thing, making hooks-and-loops that bind to each other firmly, he could produce a strong fastener with many uses. De Mestral's first challenge was finding a fabric for a strong bonding system. He first tried cotton, but it proved too soft and could not withstand repeated openings and closures. After years of research and testing, he learned that synthetics worked best and eventually settled on heat-treated nylon, a strong and durable substance. By 1955, he had completed an improved version of 
 the product, with each square inch of material containing 300 hooks, which made it stay fastened and yet easy enough to pull apart when needed. Named Velcro from the French words velours (velvet and crocher (hook), the new product received a patent from the Swiss government in 1955. De Mestral thus began mass-producing Velcro. opening plants in Europe and eventually into Canada and the United States. Initially Velcro did not fare well. As most fashion critics considered it ugly and cheap-looking, the use of Velcro was limited to athletic equipment. In the early 1960s,the product received a huge boost in popularity when NASA began using it in a lot of equipment that went into space along with astronauts. Today, de Mestral's design is found almost everywhere: clothing and footwear, toys, airline seat cushions, blood pressure cuffs and surgeons' gowns. Most impressively, the magical fastener was used in the first human artificial heart transplantation to hold together parts of the device. -5-
 
-### 翻譯結果
+#### 翻譯結果
 
 113 5 11 * 24 3546 3538 1941年的一個美好早晨，瑞士工程師喬治·德·梅斯特拉（George de Mestral）和他的狗一起在樹林裡散步。回到家後，他發現了很多毛刺（從植物）粘在狗的皮毛和褲子上。他立
 即沖向顯微鏡，檢查了褲子上附著的毛刺，燈泡瞬間。經過仔細檢查，De Mestral觀察到，毛刺直射到肉眼上，實際上包含了許多小鉤子，它們將牢固地牢牢地牢牢地牢牢地牢牢地粘在褲子的織物上。他確定
@@ -78,8 +78,17 @@ the product, with each square inch of material containing 300 hooks, which made 
 產的Velcro。在歐洲開放植物，最終進入加拿大和美國。最初，魔術貼的表現不佳。由於大多數時尚評論家認為這很醜陋，外觀廉價，因此使用魔術貼僅限於運動設備。在1960年代初，當NASA開始大量使用NASA時，該產品受到了巨大的增強。與宇航員一起進入太空的設備。今天，De Mestral的設計幾乎到處都是：服裝和鞋類，玩具，航空公司座墊，血壓袖口和外科醫生的禮服。最令人印象深刻的是，最令人印象
 深刻的是，魔術緊固件是在第一個人類中使用的人造心臟移植以將設備的一部分固定在一起。-5-
 
+### 原圖
+![圖片描述](english_4.jpg)
+#### 識別結果
+![圖片描述](english_4_result.jpg)
+#xh3. The situition that students work part time is more_and_more_common_in.recent years.One of the reasons that students work part time is that they want to earn some moneyduring vacation_orafter school so that they have  enough"pocket money" to buy things.they Want_Some_of_the senior hiah students_earn_money to ouy /atest cellphones.fashion shoes... byworking 
+part time the second_yeason_is.thatsome.students.would.ather:uork tart time thain.tudying. They thinkthatthey cah learn the ckills which are meaningful than just.study. If I work part time, the Yeason I do so is that I want to learn the skilk which_can_not get from books and teacher Iwant.mycelf become a humhle.passionate and responsiable person through working 
+Besides,it will be the first income I earn.I.can know that it is nat easy to earn money o I will cherish the things I own
 
-
+#### 翻譯結果
+＃xh3。學生兼職工作的情況是more_and_more_common_in.recent年。學生兼職工作的原因之一是他們想賺取一些賺錢的度假vatical_orafter學校，以便他們有足夠的“零用錢”來購買東西。到ouy /atest手機
+。時尚鞋...兼經兼職二_ yeason_is.thatsome.students.students.ward。他們認為CAH學習了比只是研究有意義的Ckills。如果我兼職工作，那麼我這樣做的是，我想學習熟練的_can__not從書籍和老師iwant.mycelf中獲得的hemhle。通過工作，且有責任感的人，這是我賺取的第一個收入。 。
 
 
 
