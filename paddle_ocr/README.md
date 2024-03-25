@@ -57,6 +57,9 @@ python ppocr.py --image_path "path/to/your/image.jpg" --result_text_path "path/t
 | 法語 | fr | 弗裡斯蘭語 | fy | 加利西亞語 | gl |
 | 格魯吉亞語 | ka | 德語 | de | 希臘語 | el |
 
+## 結果
+![圖片描述](english_2.jpg)
+
 
 
 
