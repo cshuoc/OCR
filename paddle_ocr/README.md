@@ -62,7 +62,7 @@ python ppocr.py --image_path "path/to/your/image.jpg" --result_text_path "path/t
 ### 原圖
 ![圖片描述](english_2.jpg)
 ### 識別結果
-![圖片描述](english_2.jpg)
+![圖片描述](english_2_result.jpg)
 
 113 5 11 * 24 3546 3538 One fine morning in 1941, Swiss engineer George de Mestral went for a walk in the woods with his dog. Upon their return home, he found a lot of burrs (from plants) stuck to the dog's fur and his pants. He immediately rushed to his microscope and examined the burrs attached on his pantsfeeling a lightbulb moment coming on. Upon closer examination, de Mestral observed that the burrs, which appeared straight to the naked eye, actually contained many small hooks that clung firmly to the loops in the fabric of his pants. 
 He determined that if he could recreate the same thing, making hooks-and-loops that bind to each other firmly, he could produce a strong fastener with many uses. De Mestral's first challenge was finding a fabric for a strong bonding system. He first tried cotton, but it proved too soft and could not withstand repeated openings and closures. After years of research and testing, he learned that synthetics worked best and eventually settled on heat-treated nylon, a strong and durable substance. By 1955, he had completed an improved version of 
