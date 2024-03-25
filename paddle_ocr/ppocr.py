@@ -21,12 +21,15 @@ def pic_to_txt(img_path : str,  result_save_path : str, pic_lang : str, target_l
     plt.show()
     print(result)
     for res in result:
-        print(res[1][0])
-    for res in result:
-        text=res[1][0]
-        translator = Translator()
-        result = translator.translate(text, dest=target_lang, src = pic_lang)
-        print(result.text)
+        # print(res[1][0])
+        merge_result.append(res[1][0])
+    # 將列表中的所有字符串合併成一個字串
+    merge_result = ' '.join(merge_result)
+    print(merge_result)
+    #翻譯
+    translator = Translator()
+    result = translator.translate(merge_result, dest=target_lang, src = pic_lang)
+    print(result.text)
     save_recognized_text(result, save_path)
 def save_recognized_text(results, save_path='/your/path/test.txt'):
     with open(save_path, 'w', encoding='utf-8') as file:
