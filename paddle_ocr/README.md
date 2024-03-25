@@ -80,8 +80,10 @@ the product, with each square inch of material containing 300 hooks, which made 
 
 ### 原圖
 ![圖片描述](english_4.jpg)
+
 #### 識別結果
 ![圖片描述](english_4_result.jpg)
+
 #xh3. The situition that students work part time is more_and_more_common_in.recent years.One of the reasons that students work part time is that they want to earn some moneyduring vacation_orafter school so that they have  enough"pocket money" to buy things.they Want_Some_of_the senior hiah students_earn_money to ouy /atest cellphones.fashion shoes... byworking 
 part time the second_yeason_is.thatsome.students.would.ather:uork tart time thain.tudying. They thinkthatthey cah learn the ckills which are meaningful than just.study. If I work part time, the Yeason I do so is that I want to learn the skilk which_can_not get from books and teacher Iwant.mycelf become a humhle.passionate and responsiable person through working 
 Besides,it will be the first income I earn.I.can know that it is nat easy to earn money o I will cherish the things I own
