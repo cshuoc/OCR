@@ -60,3 +60,6 @@ python ppocr.py --image_path "path/to/your/image.jpg" --result_text_path "path/t
 
 
 
+
+
+
